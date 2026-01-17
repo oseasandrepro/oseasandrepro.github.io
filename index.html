@@ -6,33 +6,36 @@
   <title>Oséas Andre - Portfolio</title>
 </head>
 
-<body style="padding: 10px;">
-  <div style="background-color: ghostwhite; color: black; padding: 10px;">
-    <div style="display: flex;">
-      <div style="display: block; width:60%;">
-        <h1>Oséas André</h1>
-        <p style="text-align: left">
-          Hello, here you will find information about my education, work experience and projects.
-          I am a Software Engineer with 4 years of experience, focused on performance, reliability, and maintainability.
-          Winner of the Parallel Programming Marathon, I bring a strong foundation in algorithms, data structures,
-          concurrency,
-          and metric-driven optimization. At Globo, I applied these principles to backend APIs supporting the
-          recommendation
-          ecosystem. At FUJB, I redesigned a system workflow, removing a third-party dependency and reducing operational
-          costs by R$2,000/month. My background as a teaching assistant and programming instructor reinforces
-          disciplined problem-solving, precise
-          solution design. In agile environments,I actively contribute to technical and architectural decisions,
-          bringing relevant insights, learning from technical discussions and, delivering consistent solutions. I enjoy
-          the process of conceiving, designing, and implementing software end-to-end, combining hands-on engineering
-          with core computer-science foundations.
-          Recently I assume a new position as "Data Scientist I" at Globo - exploring and building my path in Data & AI
-          world (>‿◠).
-        </p>
-      </div>
-      <div style="display: block; width: 40%">
-        <img style="max-width: 100%; height: 100%;" alt="profile-picture" src="./images/profile-picture.jpg" />
-      </div>
+<body>
+  <div style="display: flex; column-gap: 10px; justify-content: space-between;">
+    <div style="display: block; width:60%;">
+      <h1>Oséas André</h1>
+      <p style="text-align: left">
+        Hello, here you will find information about my education, work experience and projects.
+        I am a Software Engineer with 4 years of experience, focused on performance, reliability, and maintainability.
+        Winner of the Parallel Programming Marathon, I bring a strong foundation in algorithms, data structures,
+        concurrency,and metric-driven optimization. At Globo, I applied these principles to backend APIs supporting
+        the
+        recommendation ecosystem. At FUJB, I redesigned a system workflow, removing a third-party dependency and
+        reducing
+        operational costs by R$2,000/month. My background as a teaching assistant and programming instructor
+        reinforces
+        disciplined problem-solving, precise solution design. In agile environments,I actively contribute to technical
+        and architectural
+        decisions, bringing relevant insights, learning from technical discussions and, delivering consistent
+        solutions.
+        I enjoy the process of conceiving, designing, and implementing software end-to-end, combining hands-on
+        engineering
+        with core computer-science foundations. Recently I assume a new position as "Data Scientist I" at Globo-
+        exploring and building my path in Data & AI world! (>‿◠).
+      </p>
     </div>
+    <div style="display: block; width: 40%">
+      <img style="max-width: 100%; max-height: 500px; height: 100%;" alt="profile-picture"
+        src="./images/profile-picture.jpg" />
+    </div>
+  </div>
+  <div style="background-color: ghostwhite; color: black;">
     <h2>Experience</h2>
     <div style="display: flex;">
       <!-- 
@@ -118,10 +121,8 @@
     </div>
   </div>
 
-
-  <div style="background-color: Gainsboro; color: black; padding: 16px;">
-    <h2 style="border: none;">Education</h2>
-
+  <div style="background-color: Gainsboro; color: black;">
+    <h2>Education</h2>
     <article style="margin-bottom: 24px;">
       <header style="display: flex; justify-content: space-between; align-items: baseline;">
         <h3 style="margin: 0;">Bachelor of Science in Computer Science</h3>
@@ -187,16 +188,16 @@
   </div>
 
 
-  <div style="background-color: ghostwhite; color: black; padding: 16px;">
+  <div style="background-color: ghostwhite; color: black; width:100%">
     <h2 style="border: none;">Relevant projects</h2>
-    <div style="display: flex;">
-      <article style="margin-right: 24px; width:50%">
+    <div style="display: flex; column-gap: 10px; justify-content: space-between;">
+      <article style="width:50%">
         <header style="display: flex; justify-content: space-between; align-items: baseline;">
           <a href="https://github.com/oseasandrepro/RPC-LIB">
             <h3 style="margin: 0;">SRPC</h3>
           </a>
         </header>
-        <img width="400px" height="208px" src="./images/rpc-diagram.png" />
+        <img style="max-width: 100%; max-height: 400px; height: 400px;" src="./images/rpc-diagram.png" />
         <p>
           A lightweight Remote Procedure Call library designed for clean abstraction between
           distributed processes, facilitating rapid prototyping - In this project I demonstrate
@@ -204,39 +205,39 @@
           out Software Engineer projects, totaly functional - using Python.
         </p>
       </article>
-      <article style="margin-bottom: 24px; width:50%">
+      <article style="width:50%">
         <header style="display: flex; justify-content: space-between; align-items: baseline;">
           <a href="https://github.com/oseasandrepro/MiniBitTorrent">
             <h3 style="margin: 0;">MiniBitTorrent</h3>
           </a>
         </header>
-        <img width="400px" height="208px" src="./images/P2P-network.gif" />
+        <img style="max-width: 100%; max-height: 400px; height: 400px;" src="./images/P2P-network.gif" />
         <p>
           A naive implementation of an Peer2Peer BitTorrent, running in local network - Using Java
           You can exchange totally functional, you can exchange files with it in your LAN.
         </p>
       </article>
     </div>
-    <div style="display: flex;">
-      <article style="margin-right: 24px; margin-bottom: 24px; width:50%">
+    <div style="display: flex; column-gap: 10px; justify-content: space-between;">
+      <article style="width:50%">
         <header style="display: flex; justify-content: space-between; align-items: baseline;">
           <a href="https://github.com/oseasandrepro/Projeto1">
             <h3 style="margin: 0;">Vector Graphics Editor</h3>
           </a>
         </header>
-        <img width="400px" height="208px" src="./images/editor-grafico-vetorial.png" />
+        <img style="max-width: 100%; max-height: 400px; height: 400px;" src="./images/editor-grafico-vetorial.png" />
         <p>
           Vector graphics editor, using Java2D. Allows you to create, edit, and manipulate images based
           on simple geometric shapes. Made in pure Java without any third-party libraries.
         </p>
       </article>
-      <article style="margin-bottom: 24px; width:50%">
+      <article style="width:50%">
         <header style="display: flex; justify-content: space-between; align-items: baseline;">
           <a href="https://github.com/oseasandrepro/Topicos-De-Programacao-USP">
             <h3 style="margin: 0;">Algorithms Design</h3>
           </a>
         </header>
-        <img width="400px" height="208px" src="./images/AlgorithmDesign-picture.jpg" />
+        <img style="max-width: 100%; max-height: 400px; height: 400px;" src="./images/AlgorithmDesign-picture.jpg" />
         <p>
           This repository documents the coursework and exercises developed throughout the “Algorithms: Theory, Analysis,
           and Implementation” course from USP, with strong emphasis on algorithmic rigor and theoretical foundations. It
