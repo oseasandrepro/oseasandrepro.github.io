@@ -1,3 +1,13 @@
+title: Oseas André # your name (or website title) here
+logo: "/images/profile-picture.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  <br>
+  Data Scientist with a strong software engineering background and four years of experience building reliable, maintainable, and production-oriented systems.
+  <br><br>
+  <a href="https://www.linkedin.com/in/oseas-andre/">View my LinkedIn Profile</a> 
+  
 theme: jekyll-theme-minimal
-title:
-description:
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+colors:
+  crimson: '#900C3F'
