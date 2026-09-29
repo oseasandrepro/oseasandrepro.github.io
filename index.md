@@ -3,16 +3,17 @@
 ---
 
 ### [Retail Customer Behavior Analytics](https://github.com/oseasandrepro/data-analysis-customer-behavior)
-Analytic project transforming retail transaction and customer data into decision-support insights.
-The interative dashboard allow check KPI's like: "Number of customers", "Average Purchase Amount", and fallow revenue and sales by "Age group", "category" and "gender".
+Transforming retail transaction and customer data into decision-support insights.
+The interative dashboard allow check KPI's like: "Number of customers", "Average Purchase Amount", and fallow revenue and sales by "Age group", "category" and "gender", etc.
+
 - Performed data preparation, exploratory analysis, and behavioral analysis using Python and SQL.
 - Designed metrics and analyses connecting customer behavior with business questions.
 - Consolidated results into an interactive Power BI dashboard for stakeholder consumption.
-<img src="images/customer-behavior.jpg?raw=true" />
+<img src="images/v1dashboard_1.png?raw=true" />
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) 
-[![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
+[![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](https://github.com/oseasandrepro/data-analysis-customer-behavior/blob/main/customer-shopping-behavior-analysis.ipynb)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ---
@@ -36,8 +37,8 @@ the service, generate server and client stubs, and invoke remote procedures. The
 ---
 
 ### [SRPC Benchmark & Data Analysis](https://github.com/oseasandrepro/srpc-benchmark)
-Experimental design, statistical analysis.
-- Conducted performance experiments and benchmarking to identify system bottlenecks and scaling behaviour.
+Conducted performance experiments and benchmarking to identify system bottlenecks and scaling behaviour.
+Exploring: experimental design and statistical analysis.
 
 <img src="images/benchmark.png?raw=true" />
 
