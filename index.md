@@ -2,8 +2,7 @@
 
 ---
 
-### [Retail Customer Behavior Analytics](https://github.com/oseasandrepro/data-analysis-customer-behavior)
-### Retail Customer Behavior Analysis & Interactive Dashboard
+### [Retail Customer Behavior Analysis & Interactive Dashboard](https://github.com/oseasandrepro/data-analysis-customer-behavior)
 
 Transforming retail transaction and customer data into actionable business insights through exploratory data analysis and interactive visualizations. The dashboard provides an overview of key performance indicators (KPIs), including total customers, average purchase amount, and revenue distribution across age groups, product categories, and gender.
 
@@ -31,11 +30,8 @@ Interactive dashboard development for KPI monitoring and business decision suppo
 
 ### [SRPC](https://github.com/oseasandrepro/data-analysis-customer-behavior)
 An experimental Remote Procedure Call(RPC) framework that uses Python as its Interface Definition Language. Define a service contract using Python, implement
-the service, generate server and client stubs, and invoke remote procedures. The project explore: software architecture design, API design, packaging, versioning, and distributed systems.
-
-- Designed the RPC programming abstraction and client/server architecture.
-- Implemented protocol, serialization, packaging, and versioning mechanisms.
-- Used the project to investigate network communication, concurrency, maintainability, security, and performance.
+the service, generate server and client stubs, and invoke remote procedures. 
+The project explore: software architecture design, API design, packaging, versioning, distributed systems, concurrency and maintainability.
 
 <img src="images/rpc-diagram.png?raw=true" />
 
