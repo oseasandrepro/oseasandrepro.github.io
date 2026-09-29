@@ -45,7 +45,7 @@ the service, generate server and client stubs, and invoke remote procedures. The
 
 ### [SRPC Benchmark & Data Analysis](https://github.com/oseasandrepro/srpc-benchmark)
 Conducted performance experiments and benchmarking to identify system bottlenecks and scaling behaviour.
-Exploring: experimental design and statistical analysis.
+Exploring: Experiment design and statistical analysis.
 
 <img src="images/benchmark.png?raw=true" />
 
