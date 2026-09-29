@@ -3,12 +3,19 @@
 ---
 
 ### [Retail Customer Behavior Analytics](https://github.com/oseasandrepro/data-analysis-customer-behavior)
-Transforming retail transaction and customer data into decision-support insights.
-The interative dashboard allow check KPI's like: "Number of customers", "Average Purchase Amount", and fallow revenue and sales by "Age group", "category" and "gender", etc.
+### Retail Customer Behavior Analysis & Interactive Dashboard
 
-- Performed data preparation, exploratory analysis, and behavioral analysis using Python and SQL.
-- Designed metrics and analyses connecting customer behavior with business questions.
-- Consolidated results into an interactive Power BI dashboard for stakeholder consumption.
+Transforming retail transaction and customer data into actionable business insights through exploratory data analysis and interactive visualizations. The dashboard provides an overview of key performance indicators (KPIs), including total customers, average purchase amount, and revenue distribution across age groups, product categories, and gender.
+
+It enables users to explore business questions such as:
+What proportion of customers are subscribers versus non-subscribers? 
+How does revenue vary across age groups? 
+Which product categories contribute the most to total revenue?
+
+**Key technical components:** Data exploration and analysis using Python and SQL;
+Customer segmentation and purchasing behavior analysis;
+Interactive dashboard development for KPI monitoring and business decision support.
+
 <img src="images/v1dashboard_1.png?raw=true" />
 
 
@@ -24,7 +31,7 @@ The interative dashboard allow check KPI's like: "Number of customers", "Average
 
 ### [SRPC](https://github.com/oseasandrepro/data-analysis-customer-behavior)
 An experimental Remote Procedure Call(RPC) framework that uses Python as its Interface Definition Language. Define a service contract using Python, implement
-the service, generate server and client stubs, and invoke remote procedures. The project explore: software architecture design, API design, packaging, versioning, and distributed systems fundamentals.
+the service, generate server and client stubs, and invoke remote procedures. The project explore: software architecture design, API design, packaging, versioning, and distributed systems.
 
 - Designed the RPC programming abstraction and client/server architecture.
 - Implemented protocol, serialization, packaging, and versioning mechanisms.
