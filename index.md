@@ -27,18 +27,6 @@ Interactive dashboard development for KPI monitoring and business decision suppo
 
 ## Applied Research & Technical Experiments
 
-
-### [SRPC](https://github.com/oseasandrepro/data-analysis-customer-behavior)
-An experimental Remote Procedure Call(RPC) framework that uses Python as its Interface Definition Language. Define a service contract using Python, implement
-the service, generate server and client stubs, and invoke remote procedures. 
-The project explore: software architecture design, API design, packaging, versioning, distributed systems, concurrency and maintainability.
-
-<img src="images/rpc-diagram.png?raw=true" />
-
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
----
-
 ### [SRPC Benchmark & Data Analysis](https://github.com/oseasandrepro/srpc-benchmark)
 Conducted performance experiments and benchmarking to identify system bottlenecks and scaling behaviour.
 Exploring: Experiment design and statistical analysis.
@@ -51,6 +39,21 @@ Exploring: Experiment design and statistical analysis.
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ---
 
+### [SRPC](https://github.com/oseasandrepro/RPC-LIB)
+An experimental Remote Procedure Call(RPC) framework that uses Python as its Interface Definition Language. Define a service contract using Python, implement
+the service, generate server and client stubs, and invoke remote procedures. 
+The project explore: software architecture design, API design, packaging, versioning, distributed systems, concurrency and maintainability.
+
+<img src="images/define-implement-side-by-side.png?raw=true" />
+
+<img src="images/rpc-server.png?raw=true" />
+
+<img src="images/rpc-client.png?raw=true" />
+
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+---
+
 ### [Algorithm Analysis & Implementation](https://github.com/oseasandrepro/Topicos-De-Programacao-USP)
 Repository containing implementations, experiments, and formal analyses developed during USP's algorithms course.
 
@@ -60,7 +63,7 @@ Repository containing implementations, experiments, and formal analyses develope
 - Connected theoretical algorithm analysis with experimental implementation.
 - Topics: Data Structures · Graph Algorithms · Complexity Analysis · Correctness Proofs · C
 
-<img src="images/AlgorithmDesign-picture.jpg?raw=true" />
+<img src="images/algoritmos-na-usp.png?raw=true" />
 
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
