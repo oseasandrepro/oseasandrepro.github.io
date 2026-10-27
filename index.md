@@ -28,9 +28,8 @@ Interactive dashboard development for KPI monitoring and business decision suppo
 
 ### [Visual Evaluation of Text Embeddings](https://colab.research.google.com/drive/1OadcTOG9HpyHNfLfathBaTP10w72tqfr?usp=sharing)
 
-Exploring how visualizations can help compare text embedding models on a single-label text dataset. I generated embeddings with two Sentence Transformers models, applied K-means clustering, and compared the resulting clusters with the original labels using Sankey and Venn diagrams. The Sankey diagrams show how texts flow from categories into clusters, while the Venn diagrams highlight the overlap between selected category-cluster pairs. Together, they help reveal whether categories remain concentrated in particular clusters, are split across several clusters, or are grouped with other categories.
-
-The method can also support exploratory analysis in industry contexts such as customer feedback, incident reports, and product catalog descriptions, where identifying how clusters align with existing categories can help assess embedding models.
+I compare two Sentence Transformers models by generating text embeddings, applying K-means, and visualizing cluster alignment with existing labels using Sankey and Venn diagrams.
+This approach highlights category fragmentation or mixing and can be adapted to customer feedback, incident reports, and product catalogs.
 
 **Key technical components:** Text embedding generation with Sentence Transformers; K-means clustering; Comparison of original labels and cluster assignments; Visual evaluation using Sankey and Venn diagrams.
 
