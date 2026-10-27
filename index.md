@@ -4,12 +4,8 @@
 
 ### [Retail Customer Behavior Analysis & Interactive Dashboard](https://github.com/oseasandrepro/data-analysis-customer-behavior)
 
-Transforming retail transaction and customer data into actionable business insights through exploratory data analysis and interactive visualizations. The dashboard provides an overview of key performance indicators (KPIs), including total customers, average purchase amount, and revenue distribution across age groups, product categories, and gender.
-
-It enables users to explore business questions such as:
-What proportion of customers are subscribers versus non-subscribers? 
-How does revenue vary across age groups? 
-Which product categories contribute the most to total revenue?
+An interactive dashboard for exploring retail customer and purchase data. 
+It highlights key metrics such as customer count, average purchase amount, and average review rating, and lets users analyze sales and revenue by product category and age group using filters for subscription status, gender, and shipping type.
 
 **Key technical components:** Data exploration and analysis using Python and SQL;
 Customer segmentation and purchasing behavior analysis;
@@ -73,13 +69,11 @@ The project explore: software architecture design, API design, packaging, versio
 ---
 
 ### [Algorithm Analysis & Implementation](https://github.com/oseasandrepro/Topicos-De-Programacao-USP)
-Repository containing implementations, experiments, and formal analyses developed during USP's algorithms course.
+Repository of implementations, experiments, and formal analyses developed during USP’s Algorithms course.
+It covers classical algorithms and data structures in C, correctness and termination proofs, 
+and empirical runtime and asymptotic complexity analysis, connecting theoretical concepts with practical results.
 
-- Implemented classical algorithms and fundamental data structures in C.
-- Developed correctness and termination proofs.
-- Performed empirical runtime and asymptotic complexity analysis.
-- Connected theoretical algorithm analysis with experimental implementation.
-- Topics: Data Structures · Graph Algorithms · Complexity Analysis · Correctness Proofs · C
+Topics: Data Structures · Graph Algorithms · Complexity Analysis · Correctness Proofs · C
 
 <img src="images/algoritmos-na-usp.png?raw=true" />
 
